@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.login-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Remember{
+    padding-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"]
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"]:hover {
+    background-color: #c9302c;
+}
+
+@media  (max-width: 400px) {
+    .login-container {
+        background-color: #45a049;
+    }
+}
