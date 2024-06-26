@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.flexlogin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container {
+    width: 1000px;
+    height: 600px;
+    background: url(https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg) no-repeat;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.flexlogin {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        width: 90%;
+    }
+}
