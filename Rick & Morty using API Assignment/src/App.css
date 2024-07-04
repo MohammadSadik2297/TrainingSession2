@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.sort-filter,
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+@media (max-width: 768px) {
+  .character-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
