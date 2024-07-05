@@ -29,3 +29,8 @@ body {
   justify-content: center;
   margin: 16px;
 }
+@media (max-width: 768px) {
+    .character-list {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
